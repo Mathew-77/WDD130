@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Urbanist&display=swap');
+
+
+
+
+:root{
+    --primary-color: #A54C40;
+    --secondary-color: #54e68c;
+    --accent1-color: #99802f;
+    --accent2-color: #FECF00;
+    --paragraph-font:'Montserrat',sans-serif;
+    --heading-font:'Urbanist', Sans-serif;
+    --nav-background-color: #7f6fca;
+    --nav-link-color: #A54C40;
+    --nav-hover-link-color: #000000;
+    --nav-hover-backgroung-color: #ffffff;
+}
+header{
+    padding: 20px;
+    background-color: var(--accent2-color)
+}
+
+p{
+    padding: 25px;
+
+}
+body{
+    max-width: 800px;
+    font-family: var(--paragraph-font);
+    padding: 10px;
+}
+
+.hero img{
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: auto;
+    float: right;
+}
+h1{
+    position: absolute;
+    left: 365px;
+}
+article{
+    position: relative;
+    background-color: aqua;
+}   
