@@ -1,23 +1,65 @@
-main {
-    max-width: 840px;
-}
-.aside{
-    width: 200px;
-    margin: 1rem;
-    border: 1px ;
-    padding: 1rem;
-    background-attachment: aqua;
-    text-align: center;
-    align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+:root {
+    --primary-color: #A54C40;
+    --secondary-color: #54e68c;
+    --accent1-color: #99802f;
+    --accent2-color: #FECF00;
+    --heading-font:'Urbanist', Sans Serif;
+    --nav-background-color: #7f6fca;
+    --nav-link-color: #A54C40;
+    --nav-hover-link-color: #000000;
+    --nav-hover-backgroung-color: #ffffff;
 }
 
-main img{
-    width: 150px; ;
-    height:auto ;
+body {
+    font-family: var(--paragraph-font);
+    text-align: center;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px;
 }
-p { padding: 0px;}
-footer{
-    margin-top: 15px;
-    border-top: 1px solid #000;
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}a
+
+header {
+    padding: 20px;
+    background-color: var(--accent2-color)
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    display: flex;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+footer {
+    margin-top: 1rem;
+    border-top: 1px solid #A54C40;
     text-align: center;
 }
+
