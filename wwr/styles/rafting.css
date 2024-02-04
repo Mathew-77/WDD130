@@ -16,33 +16,114 @@
     --nav-hover-backgroung-color: #ffffff;
 }
 
+
 header {
     display: grid;
-}
-nav{
-    grid-column: 3;
-    grid-row: 1;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-   
+    grid-template-columns: 25% 75%;
+    padding: 20px;
+    width: auto;
+    background-color: var(--accent2-color);
+    font-size: large;
 }
 
-p{
-    padding: 25px;
-
+header img {
+    grid-column: 1/2;
 }
-body{
-    max-width: 800px;
+
+body {
     font-family: var(--paragraph-font);
-    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 960px;
+    color: var(--accent1-color);
 }
 
-h1{
-    position: absolute;
-    left: 365px;
+nav {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 2/3;
 }
-article{
+
+nav a {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+nav a:hover {
+    color : var(--nav-hover-link-color);
+    background-color : var(--secondary-color);
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);                
+}
+
+figure img {
+   max-width: 120px;   
+}
+
+.hero {
     position: relative;
-    background-color: aqua;
-}   
+    margin-top: 20px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    color: var(--primary-color);
+    top: 5px;
+    left: 400px;
+    background-color: #FECF00;
+    opacity: .6;
+ }
+
+.hero article {
+    position: absolute;
+    top: 50%;
+    left: 400px;
+    background-color: var(--accent2-color);
+    opacity: .8;
+}
+
+.hero article img {
+    float: right;
+    width: 50%;
+}
+
+.hero p {
+    font-weight: bold;
+    font-size: large;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: var(--paragraph-font);
+    margin-top: 1rem;
+    border-top: 2px solid #A54C40;
+    text-align: center;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: end;       
+}
+
+a:link {
+    text-decoration: none;
+}
+
