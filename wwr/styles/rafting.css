@@ -15,9 +15,17 @@
     --nav-hover-link-color: #000000;
     --nav-hover-backgroung-color: #ffffff;
 }
-header{
-    padding: 20px;
-    background-color: var(--accent2-color)
+
+header {
+    display: grid;
+}
+nav{
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
 }
 
 p{
@@ -30,13 +38,6 @@ body{
     padding: 10px;
 }
 
-.hero img{
-    display: block;
-    position: absolute;
-    width: 150px;
-    height: auto;
-    float: right;
-}
 h1{
     position: absolute;
     left: 365px;
