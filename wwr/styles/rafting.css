@@ -82,7 +82,7 @@ figure img {
 
 .hero h1 {
     position: absolute;
-    color: rgba(red, green, blue, alpha,0.6);
+    color: rgba(rgb(0, 183, 255), green, blue, alpha,0.6);
     top: 5px;
     left: 0px;
     right: 0;
