@@ -17,6 +17,7 @@ main{
     max-width: 50%;
     margin: 0 auto;
     border: 0;
+    padding: 10px; ;
 
 }
 h1{
@@ -25,8 +26,10 @@ h1{
     left: 100px;
     margin: 0 auto;
     border: 0;
+    color: var(--nav-background-color);
 
 }
 footer{
     text-align: center;
+    color: #A54C40;
 }
