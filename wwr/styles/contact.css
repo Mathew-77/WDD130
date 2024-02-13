@@ -102,11 +102,12 @@ figure img {
 }
 iframe img{
     display: block;
-    width: 100%;
-    height: auto;
+    width: 900px;
+    height: 450;
     left: 0;
     right: 0;
     margin: 0 auto;
+    
 }
 
 .hero article img {
