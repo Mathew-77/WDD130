@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Urbanist&display=swap');
+
+
+
+
+:root{
+    --primary-color: #A54C40;
+    --secondary-color: #54e68c;
+    --accent1-color: #99802f;
+    --accent2-color: #FECF00;
+    --paragraph-font:'Montserrat',sans-serif;
+    --heading-font:'Urbanist', Sans-serif;
+    --nav-background-color: #7f6fca;
+    --nav-link-color: #A54C40;
+    --nav-hover-link-color: #000000;
+    --nav-hover-backgroung-color: #ffffff;
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding: 20px;
+    width: auto;
+    background-color: var(--accent2-color);
+    font-size: large;
+}
+
+header img {
+    grid-column: 1/2;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 960px;
+    color: var(--accent1-color);
+}
+
+nav {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 2/3;
+}
+
+nav a {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+nav a:hover {
+    color : var(--nav-hover-link-color);
+    background-color : var(--secondary-color);
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);                
+}
+
+figure img {
+   max-width: 120px;   
+}
+
+.hero {
+    position: relative;
+    margin-top: 20px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    position: absolute;
+    color: peru ;
+    top: 5px;
+    left: 0px;
+    right: 0;
+    margin: 0 auto;
+    background-color: #FECF00;
+ }
+
+.hero article {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    right: 0%;
+    background-color: var(--accent2-color);
+    width: 80%;
+    margin: 0 auto;
+    
+}
+iframe img{
+    display: block;
+    width: 900px;
+    height: 450;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    
+}
+
+.hero article img {
+    float: right;
+    width: 150px;
+}
+
+.hero p {
+    font-weight: bold;
+    font-size: large;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: var(--paragraph-font);
+    margin-top: 1rem;
+    border-top: 2px solid #A54C40;
+    text-align: center;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: end;       
+}
+
+a:link {
+    text-decoration: none;
+}
+
