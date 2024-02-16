@@ -50,23 +50,19 @@
                 </fieldset>
                 <fieldset>
                     <legend>purpose of your message</legend>
-                    <label for="question">question</label>
-                    <select name="feedback" id="feedback">
-                    <option value="general inquiry">
-                        general inquiry
-                    </option>
-                    <option value="reservation questions">
-                        reservation questions
-                    </option>
-                    <option value="website suggestion">
-                        website suggestion
-                    </option>
-                    </select>
+                    <input type="radio">
+                    <option value="general inquiry">general inquiry</option>
+                    <input type="radio">
+                    <option value="reservation questions">reservation questions</option>
+                    <input type="radio">
+                    <option value="website suggestion">website suggestion</option>
+                    
                     <label for="message">message</label>
                     <textarea name="message" id="message" rows="4"></textarea><br>
                     <label for="subcribtion" id="subcribtion">please subcrib for monthly newsletter</label>
                     <input type="checkbox" id="check" name="check">
-
+                    </select>
+                   
                 </fieldset>
                 <button type="submit">submit message</button>
             </form>
