@@ -13,6 +13,49 @@
     --nav-hover-backgroung-color: #ffffff;
 }
 
+main img{
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+    margin-top: 20px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    position: absolute;
+    color: peru ;
+    top: 5px;
+    left: 0px;
+    right: 0;
+    margin: 0 auto;
+    background-color: #FECF00;
+ }
+
+.hero article {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    right: 0%;
+    background-color: var(--accent2-color);
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.hero article img {
+    float: right;
+    width: 150px;
+}
 body {
     font-family: var(--paragraph-font);
     text-align: center;

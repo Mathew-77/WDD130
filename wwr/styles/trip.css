@@ -15,6 +15,11 @@
     --nav-hover-link-color: #000000;
     --nav-hover-backgroung-color: #ffffff;
 }
+table{
+    border: 2px;
+    justify-content: center;
+    
+}
 
 
 header {
