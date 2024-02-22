@@ -132,7 +132,7 @@ h1, h2, h3, h4 {
 
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     font-family: var(--paragraph-font);
     margin-top: 1rem;
     border-top: 2px solid #A54C40;
